@@ -1,5 +1,5 @@
 {
-  "name": "hackwesternv",
+  "name": "simple_journal",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -12,12 +12,15 @@
   },
   "dependencies": {
     "body-parser": "*",
+    "bootstrap": "^4.1.3",
     "express": "*",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
     "pug": "*",
     "serve-favicon": "^2.5.0",
     "watson-developer-cloud": "^3.13.0"
   },
-  "author": "",
+  "author": "Cooper Ang, Michelle 'Mitch' Estanol, Eric Liang, Bhvani Rathod",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rb2001/HackWesternV/issues"

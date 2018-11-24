@@ -4,7 +4,13 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
+
 app.use(favicon(path.join(__dirname, 'icons', 'smartjournal_logo.png')))
+
+//use scripts
+app.use('/scripts', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/js', 'bootstrap.min.js')));
+app.use('/scripts', express.static(path.join(__dirname, 'node_modules/bootstrap/dist/css', 'bootstrap.min.css')));
+
 //middleware
 
 app.set("view engine", "pug");
